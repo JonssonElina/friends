@@ -1,0 +1,147 @@
+
+/*Biggest titel*/
+h1{
+  color:#000000;
+  font-family: 'Dosis', cursive;
+  text-shadow: 2px 2px 5px white;
+  font-size:50px;
+  padding: 0;
+  margin: 0;
+}
+
+/*Smaler Titels*/
+
+h2{
+  color:#e72c19;
+  font-family:'Dosis';
+  font-size:30px;
+  text-shadow: 2px 2px 5px white;
+}
+
+/*Smalest Titels*/
+h3{
+  color:rgb(54, 187, 244);
+  font-family:'Dosis';
+  font-size:20px;
+  text-shadow: 1px 1px 3px white;
+}
+
+/*Rubrik friends logo*/
+.rubrik{
+  padding: 0;
+  margin: 0;
+  height: 100px;
+  width: 400px;
+}
+
+body
+
+
+
+/*Bakground all sides*/
+{
+  background-color:rgb(210, 176, 240)
+}
+
+
+/*unvisited link*/
+a:link {
+  color:#27b0e3;
+}
+
+/*visited link*/
+a:visited {
+  color:black;
+
+/*Img style*/
+}
+ img{height: 300px; width: 240px;
+ }
+
+/*bild på soffa blir video style*/
+ #friendsintro{
+   height:200px;
+   width:400px;
+ }
+
+/*bildtex karaltärer style*/
+.bildtext{vertical-align:top;
+}
+
+
+/*style float border list*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 0 10px 0;
+  overflow: hidden;
+  background-color: #ffc700;
+  white-space: nowrap;
+  width: 100%;
+  border: 1px solid #000000;
+  overflow: hidden;
+  text-overflow: clip;
+  border-radius: 25px;
+}
+
+/*list float left*/
+li {
+  float: left;
+}
+
+/*dropmeny style*/
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  width: 150px;
+  text-decoration: none;
+  padding: 10px 0 10px 0;
+  border-radius: 25px;
+}
+
+/*hover style*/
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #ffffff;
+  width: 150px;
+  padding: 10px 0 10px 0;
+}
+/*meny färg på den sidan man är inne på*/
+.active {
+  background-color:rgb(24, 154, 218) ;
+}
+
+/*hide drop meny command*/
+.dropdown-content {
+  display: none;
+  position: absolute;background-color: #ffc700;
+  width: 150px;
+  z-index: 1;
+  border-radius: 25px;
+}
+
+/*visibel drop meny style*/
+.dropdown-content a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  width: 150px;
+}
+
+/*hover bakgrond*/
+.dropdown-content a:hover {
+  background-color: rgb(24, 154, 218);
+  border-radius: 25px;
+}
+
+/*hover command för drop down meny*/
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*bild och text tabell, flex*/
+
+.container{
+  display:flex;
+  flex-wrap: nowrap;
+}
